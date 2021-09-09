@@ -13,7 +13,7 @@ We are importing pandas, random, matplotlib.pyplot and KNeighborsClassifier (fro
 Which k works best?
 
 We found that for k < 17, our accuracy rates are the same.  We notice that once k > 17, the accuracy of the model begins to decline.
-We think that the accuracy is similar fewer lower k values because as the algorithm uses fewer neighbors, it has more data points that are close to the size of the flower, therefore the predictions are consistent.  As the algorithm uses more neighbors, the distance between the neighbors increases, and makes the prediction less accurate.  
+We think that the accuracy is similar for lower k values because as the algorithm uses fewer neighbors, it has more data points that are close to the size of the flower, therefore the predictions are consistent.  As the algorithm uses more neighbors, the distance between the neighbors increases, and makes the prediction less accurate.  
 
 Line Charts for various executions of knn algorithm using KNeighborsClassifier
 ![image](https://user-images.githubusercontent.com/16233572/132776079-a3c7cb57-d34f-4775-bcab-ec2edc0392e9.png)
